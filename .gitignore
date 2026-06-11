@@ -1,0 +1,84 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeralflutter_assets/
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/Flutter/flutter_export_environment.sh
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
+/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Android
+/android/**/gradle-wrapper.jar
+/android/.gradle
+/android/captures/
+/android/gradlew
+/android/gradlew.bat
+/android/gradle.properties
+/android/local.properties
+/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+/ios/.gitignore
+/ios/.idea/
+/ios/.vagrant/
+/ios/**/Flutter/Flutter.framework
+/ios/**/Flutter/Flutter.podspec
+/ios/**/Flutter/Generated.xcconfig
+/ios/**/Flutter/app.flx
+/ios/**/Flutter/app.zip
+/ios/**/Flutter/flutter_assets/
+/ios/**/Flutter/flutter_export_environment.sh
+/ios/**/GeneratedPluginRegistrant.swift
+/ios/Flutter/flutter_export_environment.sh
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.vscode/launch.json
+.vscode/extensions.json
+.gradle
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+
+# Doctor
+doctor_output.txt
+
+# Cache
+.hive_cache/
